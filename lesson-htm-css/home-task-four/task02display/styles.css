@@ -1,0 +1,9 @@
+.inline{
+    display:inline-block;
+}
+.block{
+    display: block;
+    font-weight: 200px;
+    height: 100px;
+    background-color: yellow;
+}
