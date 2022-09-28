@@ -17,5 +17,5 @@ a[href*="www"]{
     color:green;
 }
 [title*="popular"]{
-    font-size: 30px;
+    font-size: 24px;
 }
