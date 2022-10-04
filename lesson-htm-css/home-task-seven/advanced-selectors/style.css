@@ -1,0 +1,17 @@
+ul>li>input[ type="checkbox"]{
+    margin-left: 50px;
+}
+label>input[type]:focus{
+    font-size: 50;
+    
+}
+#special::first-letter{
+    font-size: 100px;
+    color: green;
+}
+h1:hover{
+    color:blue;
+}
+a:visited{
+    color: gray;
+}
