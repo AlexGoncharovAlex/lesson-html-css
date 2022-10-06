@@ -1,8 +1,8 @@
 .border-color div{
-    box-sizing: border-box;
     border: 2px solid black;
     padding: 50px;
     margin: 50px;
+    
 }
 .rectangle{
     background-color: blue; 
