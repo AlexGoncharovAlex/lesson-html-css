@@ -1,12 +1,11 @@
 .border-color div{
     border: 2px solid black;
-    padding-top: 50px;
-    padding-left: 50px;
-    margin-top: 50px;
-    margin-left: 50px;
+    padding: 50px;
+    
     
 }
 .rectangle{
+    margin: 50px;
     background-color: blue; 
     
 }
