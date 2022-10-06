@@ -1,7 +1,9 @@
 .border-color div{
     border: 2px solid black;
-    padding: 50px;
-    margin: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
     
 }
 .rectangle{
