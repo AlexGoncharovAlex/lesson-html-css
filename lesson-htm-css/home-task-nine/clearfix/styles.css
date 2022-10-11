@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    float: left;
+    width: 50%;
+}
+.square{
+    width: 50px;
+    height: 100px;
+}
+
+.red {
+    background-color: red;
+    float: right;
+}
+.green{
+    background-color: green;
+    float: left;
+}
+
+.footer{
+    clear: both;
+}
