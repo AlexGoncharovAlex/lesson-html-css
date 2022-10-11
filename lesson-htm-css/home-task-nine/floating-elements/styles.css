@@ -41,20 +41,20 @@ div {
   height: 2000px;
 }
 
-.static-parent{
-    position: static;
+.parent static-parent{
+position: static;
 }
 
-.relative-parent{
+.parent relative-parent{
     position: relative;
     top: 20px;
     left: 50px;
 }
 
-.absolute-parent{
+.parent absolute-parent{
     position: absolute;
-    top: 20px;
-    left: 50px;
+    bottom: 20px;
+    right: 50px;
 }
 
 .fixed-parent{
