@@ -1,21 +1,27 @@
 
-.header nav{
-    background-color: darkturquoise;
+.header{
+    z-index: 1;
     height: 40px;
-    line-height: 50%;;
+    width: 100%;
+    background-color: darkturquoise;
+    position: fixed;
+   
 }
-.nav-list li{
-    float: left;
-    margin: 16px;
-    color: white;
 
+ .nav-list >li{
+    height: 40px;
+    margin-left: 16px;
+    float: left;
+    color: white;
+    list-style: none;
+    line-height: 50%;
 }
 .content{
     height: 5000px;
-    background-color:beige;
-
+    width: 100%;
+    background-color: beige;
 }
-.content>.head{
+.head{
     height: 200px;
     width: 200px;
     background-color: aquamarine;
@@ -54,6 +60,6 @@ left: 200px;
     background-color: gray;
    border-radius: 50%;
    position: absolute;
-   right:40px;
+   right: 40px;
    top:80px; 
 }
