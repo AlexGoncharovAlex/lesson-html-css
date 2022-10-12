@@ -7,14 +7,15 @@
     position: fixed;
    
 }
-
+.nav-list{
+margin: 0;
+}
  .nav-list >li{
-    height: 40px;
     margin-left: 16px;
     float: left;
     color: white;
     list-style: none;
-    line-height: 50%;
+    line-height: 40px;
 }
 .content{
     height: 5000px;
