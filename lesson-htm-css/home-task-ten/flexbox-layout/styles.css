@@ -1,0 +1,59 @@
+.header{
+    height: 40px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+
+}
+.list{
+    margin: 16px;
+    list-style-type: none;
+}
+.footer{
+    height: 40px;
+    background-color: green;
+    display: flex;
+
+}
+.footer_text{
+    margin: auto;
+}
+.dashboard{
+    background-color: pink;
+    width: 100%;
+    display: flex;
+   
+}
+.dash_text{
+    margin: auto;
+}
+.news{
+    background-color: gray;
+    width: 200px;
+    margin-left: auto;
+}
+.news_text{
+   justify-content: center;
+   display: flex;
+   
+}
+.ul_list{
+    height: 40px;
+    list-style-type: none;
+    
+}
+.li{
+   margin: 16px; 
+}
+.content{
+    display: flex;
+     flex-grow: 1;
+}
+.page{
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
