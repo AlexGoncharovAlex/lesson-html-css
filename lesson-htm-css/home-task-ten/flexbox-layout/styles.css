@@ -44,6 +44,7 @@ padding: 0px;
 .news_text{
    justify-content: center;
    display: flex;
+   margin: 16px;
    
 }
 .ul_list{
