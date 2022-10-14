@@ -31,14 +31,14 @@ padding: 0px;
     background-color: pink;
     width: 100%;
     display: flex;
-   
+ 
 }
 .dash_text{
     margin: auto;
 }
 .news{
     background-color: gray;
-    width: 200px;
+    min-width: 200px;
     margin-left: auto;
 }
 .news_text{
@@ -49,7 +49,7 @@ padding: 0px;
 .ul_list{
     height: 40px;
     list-style-type: none;
-    
+    padding: 0px;
 }
 .li{
    margin: 16px; 
