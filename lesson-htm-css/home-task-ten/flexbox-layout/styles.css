@@ -48,9 +48,10 @@ padding: 0px;
    
 }
 .ul_list{
-    height: 40px;
+  
     list-style-type: none;
     padding: 0px;
+    
 }
 .li{
    margin: 16px; 
