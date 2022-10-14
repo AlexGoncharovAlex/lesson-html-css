@@ -49,6 +49,7 @@ padding: 0px;
 }
 .ul_list{
     padding: 0px;  
+    position: absolute;
 }
 .li{
    margin-left:16px; 
