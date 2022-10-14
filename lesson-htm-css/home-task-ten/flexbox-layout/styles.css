@@ -48,13 +48,12 @@ padding: 0px;
    
 }
 .ul_list{
-  
     list-style-type: none;
-    padding: 0px;
-    
+    padding: 0px;   
 }
 .li{
-   margin: 16px; 
+   margin-left:16px; 
+   height: 40px;
 }
 .content{
     display: flex;
