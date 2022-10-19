@@ -1,0 +1,18 @@
+.container div:nth-child(1){
+    width: 100px;
+  height: 100px;
+  background: coral;
+  display: none;
+}
+.container div:nth-child(2){
+    width: 100px;
+  height: 100px;
+  background: coral;
+  visibility: hidden;
+}
+.container div:nth-child(3){
+    width: 100px;
+  height: 100px;
+  background: coral;
+  visibility:visible;
+}
