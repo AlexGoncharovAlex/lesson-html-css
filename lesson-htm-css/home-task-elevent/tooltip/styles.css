@@ -8,6 +8,7 @@ span[class="tooltip"]{
     padding: 8px;
     display: block;
     display: none;
+  
     
 }
 div[class="text"]{
@@ -18,4 +19,5 @@ div[class="text"]{
 div[class="text"]:hover span[class="tooltip"]{
     display: block;
     position: absolute;
+      margin-bottom: 40px;
 }
