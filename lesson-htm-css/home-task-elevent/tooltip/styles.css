@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+span[class="tooltip"]{
+    background-color: gray;
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+    display: block;
+    display: none;
+    
+}
+div[class="text"]{
+   margin: 16px;
+   text-decoration:underline 1px dotted black; 
+   position: relative;
+}
+div[class="text"]:hover span[class="tooltip"]{
+    display: block;
+    position: absolute;
+}
