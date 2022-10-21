@@ -6,19 +6,26 @@ span[class="tooltip"]{
     color: white;
     border-radius: 4px;
     padding: 8px;
-    display: block;
+    /*display: block;*/
     display: none;
-    margin-bottom: 40px;    
+    /*margin-bottom: 40px;*/ 
+   
+  
 }
 
 div[class="text"]{
    margin: 16px;
-   text-decoration:underline 1px dotted black; 
+   /*text-decoration:underline 1px dotted black;*/
+   border-bottom: 1px dotted black;
+   display: inline-block;
    position: relative;   
 }
+
 
 div[class="text"]:hover span[class="tooltip"]{
     display: block;
     position: absolute;
-      
+    bottom: -40px;
+    
+    
 }
