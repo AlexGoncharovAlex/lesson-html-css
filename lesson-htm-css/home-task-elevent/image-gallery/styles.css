@@ -12,4 +12,5 @@
 }
 .gallery:hover{
     overflow: auto;
+    cursor: all-scroll;
 }
