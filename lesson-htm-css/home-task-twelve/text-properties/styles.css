@@ -1,0 +1,26 @@
+section{
+    margin: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+h1{
+    word-spacing: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+p{
+    line-height: 28px;
+}
+.bold{
+    font-weight:bolder;
+    letter-spacing: 3px;
+    font-size: 24px;
+    opacity:80%;
+    text-decoration: underline;
+}
+ [target="_blank"]{
+text-decoration-line: none;
+}
+.em{
+    color: gray;
+}
