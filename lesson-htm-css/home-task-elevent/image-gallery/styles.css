@@ -1,0 +1,15 @@
+ *{
+    box-sizing: border-box;
+ }
+ div{
+    display:flex;
+    
+}
+.thumb{
+    margin: 8px;
+   /* overflow: auto;*/
+    flex-shrink: 0;
+}
+.gallery:hover{
+    overflow: auto;
+}
