@@ -4,13 +4,10 @@
  
 .thumb{
     margin: 8px;
-   /* overflow: auto;*/
-    flex-shrink: 0;
-    
+    flex-shrink: 0;  
 }
 .gallery{
    overflow-x: auto;
     cursor: all-scroll;
     display:flex;
-    
 }
