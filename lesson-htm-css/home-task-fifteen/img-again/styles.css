@@ -1,6 +1,7 @@
 .image{
     /*margin: auto;*/
     max-width: 100%;
+
     /*position: relative;*/
     }
     .image-container{
@@ -18,8 +19,12 @@
         text-transform: uppercase;
         font-weight: 700;
         opacity: 0.5;
-        
+        line-height: 50px;
     }
+   /* span.image-button{
+    line-height: 50%;
+    }*/
+    
     .image-button:hover{
         opacity: 1;
         cursor: pointer;
