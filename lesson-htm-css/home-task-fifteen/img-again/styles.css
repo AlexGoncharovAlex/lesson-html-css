@@ -2,9 +2,7 @@
     box-sizing: border-box;
 }
 .image{
-    /*margin: auto;*/
     max-width: 100%;
-    /*position: relative;*/
     }
     .image-container{
         text-align: center;
