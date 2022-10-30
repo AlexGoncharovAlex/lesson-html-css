@@ -4,12 +4,12 @@
 .image{
     /*margin: auto;*/
     max-width: 100%;
-
     /*position: relative;*/
     }
     .image-container{
         text-align: center;
         position: relative;
+        line-height: 50%;
     }
     .image-button{
         position: absolute;
@@ -24,9 +24,6 @@
         opacity: 0.5;
         line-height: 50px;
     }
-   /* span.image-button{
-    line-height: 50%;
-    }*/
     
     .image-button:hover{
         opacity: 1;
