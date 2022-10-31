@@ -7,9 +7,11 @@
     .image-container{
         text-align: center;
         position: relative;
-        line-height: 50%;
+       /* line-height: 50%;*/
+       
     }
     .image-button{
+        
         position: absolute;
         top:calc(50% - 25px);
         left:calc(50% - 100px);
@@ -20,7 +22,7 @@
         text-transform: uppercase;
         font-weight: 700;
         opacity: 0.5;
-        line-height: 50px;
+       /* line-height: 50px;*/
     }
     
     .image-button:hover{
