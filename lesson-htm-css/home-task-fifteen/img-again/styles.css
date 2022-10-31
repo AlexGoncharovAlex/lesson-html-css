@@ -11,7 +11,9 @@
        
     }
     .image-button{
-        
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
         position: absolute;
         top:calc(50% - 25px);
         left:calc(50% - 100px);
