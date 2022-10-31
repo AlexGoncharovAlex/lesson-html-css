@@ -4,8 +4,11 @@
 .image{
     max-width: 100%;
     }
-    .image-container{
-        text-align: center;
+    .image-container{ 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       /* text-align: center;*/
         position: relative;
        /* line-height: 50%;*/
        
