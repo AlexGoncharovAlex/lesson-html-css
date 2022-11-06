@@ -2,6 +2,6 @@ div{
     margin: 16px;
 }
 .choose-gender{
-    display: block;
+    display: flex;
 
 }
