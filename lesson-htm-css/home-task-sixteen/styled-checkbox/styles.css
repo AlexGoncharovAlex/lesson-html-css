@@ -1,9 +1,6 @@
-.checkbox{
-    display:inline-block;
-    padding: 35px;
-    margin: 16px;
-    font-size: 24px;
-}
 input[type="checkbox"]{
     visibility: hidden;
+    height: 0;
+    width: 0;
+
 }
