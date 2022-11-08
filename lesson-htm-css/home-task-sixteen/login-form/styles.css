@@ -19,7 +19,7 @@
 .form-title{
     text-align: center;
     text-transform: uppercase;
-    position: relativa;
+   /* position: relativa;*/
 }
 
 .form-input{
@@ -32,6 +32,8 @@ border-width: 1px;
 border-color: #808080;
 padding: 4px;
 outline: none;
+position: relative;
+top: 8px;
 }
 .form-label{
 position: relative;
