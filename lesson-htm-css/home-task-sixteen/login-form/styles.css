@@ -98,3 +98,8 @@ text-transform: uppercase;
 color: white;
 border-radius: 4px;   
 }
+
+.form-input:invalid{ 
+ border: 3px solid#ff0000;
+        
+}
