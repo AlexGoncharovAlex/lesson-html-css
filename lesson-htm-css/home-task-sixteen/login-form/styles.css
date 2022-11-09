@@ -88,7 +88,6 @@ input:invalid{
     border-color: #808080;
     padding: 4px;
     outline: none;
-    margin-top: 4px;
 }
 .submit-button{
 width: 100%;
@@ -98,10 +97,4 @@ margin-top: 16px;
 text-transform: uppercase;
 color: white;
 border-radius: 4px;   
-}
-input[type="password"]{
-    margin-bottom: 8px;
-}
-.form-label{
-margin-bottom: 4px;
 }
