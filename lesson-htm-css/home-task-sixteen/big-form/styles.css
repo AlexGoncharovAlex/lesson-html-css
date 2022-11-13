@@ -7,6 +7,7 @@ form{
     
 }
 input{
- display:inline-block;
+/* display:inline-block;*/
     margin: 8px;
+    display: block;
 }
