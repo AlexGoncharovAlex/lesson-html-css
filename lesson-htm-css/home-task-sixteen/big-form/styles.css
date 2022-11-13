@@ -11,8 +11,8 @@ div{
     display:block;
 }
 .languages{
-    display: flex;
-    align-items: center;
+   /* display: flex;
+    align-items: center;*/
 }
 input[type="search"]{
     display: block;
