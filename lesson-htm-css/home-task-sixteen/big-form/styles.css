@@ -4,8 +4,9 @@
 
 form{
     margin: 32px;
+    
 }
 input{
+ display:inline-block;
     margin: 8px;
-    display: inline-block;
 }
