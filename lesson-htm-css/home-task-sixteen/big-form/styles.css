@@ -11,3 +11,7 @@ input{
     margin: 8px;
     display: block;
 }
+.languages{
+    display: flex;
+    align-items: center;
+}
