@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+   
+}
+table{
+    margin: 16px;
+    border-collapse: collapse;
+}
+tr td{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    
+}
+
+table{
+    border: 1px solid black;
+}
+
+table tr:nth-child(2)>:nth-child(even){
+    background-color:black;
+}
+table tr:nth-child(2)>:last-child{
+    background-color:white;
+    
+}
+table tr:nth-child(3)>:nth-child(odd){
+    background-color:black;
+}
+table tr:nth-child(3)>:first-child{
+    background-color:white;
+}
+table tr:nth-child(4)>:nth-child(even){
+    background-color:black;
+}
+table tr:nth-child(4)>:last-child{
+    background-color:white;
+}
+table tr:nth-child(5)>:nth-child(odd){
+    background-color:black;
+}
+table tr:nth-child(5)>:first-child{
+    background-color: white;
+}
+table tr:nth-child(6)>:nth-child(even){
+    background-color:black;
+}
+table tr:nth-child(6)>:last-child{
+    background-color:white;
+}
+table tr:nth-child(7)>:nth-child(odd){
+    background-color:black;
+}
+table tr:nth-child(7)>:first-child{
+    background-color:white;
+}
+table tr:nth-child(8)>:nth-child(even){
+    background-color:black;
+}
+table tr:nth-child(8)>:last-child{
+    background-color: white;
+}
+table tr:nth-child(9)>:nth-child(odd){
+    background-color:black;
+}
+table tr:nth-child(9)>:first-child{
+    background-color:white;
+}
+
+
+table tr:nth-child(1){
+    background-color:white;
+    
+}
+table tr:nth-child(10){
+    background-color: white;
+}
+tr td:nth-child(1){
+    background-color: white;
+}
+tr td:nth-last-child(1){
+    background-color: white;
+}
+
+/*table tr:nth-child(1) :nth-child(2)~:nth-child(odd){
+    border-bottom: 1px solid black;
+}
+*/
