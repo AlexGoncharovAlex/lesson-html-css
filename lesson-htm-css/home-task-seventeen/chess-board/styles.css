@@ -11,11 +11,53 @@ tr td{
     width: 50px;
     text-align: center;
     
+    
 }
 
 table{
     border: 1px solid black;
 }
+
+tr:not(:first-child, :last-child):nth-child(even)
+td:not(:first-child, :last-child):nth-child(odd){
+    background-color: black;
+}
+
+
+tr:not(:first-child, :last-child):nth-child(odd)
+td:not(:first-child, :last-child):nth-child(even){
+    background-color:black;
+}
+
+
+tr:not(:first-child, :last-child):nth-child(even)
+td:not(:first-child, :last-child):nth-child(even){
+    border: 1px solid;
+    }
+
+
+tr:not(:first-child, :last-child):nth-child(odd)
+td:not(:first-child, :last-child):nth-child(odd){
+border:1px solid;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 
 table tr:nth-child(2)>:nth-child(even){
     background-color:black;
@@ -85,4 +127,10 @@ tr td:nth-last-child(1){
 /*table tr:nth-child(1) :nth-child(2)~:nth-child(odd){
     border-bottom: 1px solid black;
 }
-*/
+*//*
+table>tr>td{
+    display:block;
+    overflow: auto;
+}*/
+
+
