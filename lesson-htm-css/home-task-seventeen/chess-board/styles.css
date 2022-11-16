@@ -21,12 +21,14 @@ table{
 tr:not(:first-child, :last-child):nth-child(even)
 td:not(:first-child, :last-child):nth-child(odd){
     background-color: black;
+    border: 1px solid;
 }
 
 
 tr:not(:first-child, :last-child):nth-child(odd)
 td:not(:first-child, :last-child):nth-child(even){
     background-color:black;
+    border: 1px solid;
 }
 
 
