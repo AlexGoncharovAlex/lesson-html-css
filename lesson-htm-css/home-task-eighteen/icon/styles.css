@@ -9,7 +9,7 @@ button{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
     border: none;
-
+    line-height: 50px;
 }
 
 .button-one:hover{
