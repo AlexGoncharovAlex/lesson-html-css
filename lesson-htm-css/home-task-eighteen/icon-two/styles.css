@@ -1,6 +1,4 @@
-*{
-    box-sizing: border-box;
-}
+
 .energy{
     display: flex;
     justify-content: space-around;
