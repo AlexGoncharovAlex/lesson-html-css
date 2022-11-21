@@ -20,18 +20,18 @@
     width: 100%;
     opacity: 1;
 }
-.rect:nth-child(1){
+.linear{
     transition-timing-function: linear;
 }
-.rect:nth-child(2){
+.ease{
     transition-timing-function: ease;
 }
-.rect:nth-child(3){
+.ease-in{
     transition-timing-function: ease-in;
 }
-.rect:nth-child(4){
+.ease-out{
     transition-timing-function: ease-out;
 }
-.rect:nth-child(5){
+.ease-in-out{
     transition-timing-function: ease-in-out;
 }
