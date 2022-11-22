@@ -15,6 +15,7 @@
     background-color: coral;
     border-radius: 10px;
     position: absolute;
+    left: 40vw;
     animation: move 2s;
     transition-timing-function: ease;
     animation-fill-mode: backwards;
