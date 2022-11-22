@@ -16,16 +16,14 @@
     border-radius: 10px;
     position: absolute;
     animation: move 2s;
-    transition-property: move;
     transition-timing-function: ease;
     animation-fill-mode: backwards;
 }
 @keyframes move {
     from{
-        top: 100px;
+        top: -100px;
     }
     to{
-        left: calc(50vh);
+       left:calc(50vh);
     }
-    
 }
