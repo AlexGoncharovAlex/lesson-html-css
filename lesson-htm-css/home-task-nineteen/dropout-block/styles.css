@@ -18,7 +18,7 @@
     margin: auto;
     animation: move 2s;
     transition-timing-function: ease;
-    animation-fill-mode: backwards;
+    animation-fill-mode: forwards;
 }
 @keyframes move {
     from{
