@@ -6,8 +6,9 @@
     height: 100vh;
 }
  .spinner{
-      /* margin: auto;
-    flex-direction: column;  */
+    display: flex;
+    margin: auto;
+    flex-direction: column;
    justify-content: center;
    align-items: center; 
 }
