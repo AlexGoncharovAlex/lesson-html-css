@@ -23,7 +23,8 @@ margin-top: auto;
 text-align: center;
 background-color: #e5e5e5;
 padding: 0.5em;
-flex: 1 0 auto;
+/* flex: 1 0 auto; */
+max-height: 100%;
 }
 .main{
     display: flex;
