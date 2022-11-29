@@ -70,10 +70,10 @@ text-align: center;
     white-space: nowrap;
     text-overflow: ellipsis;
     color: #ffffff;
+    padding-right: 0.5em;
 }
 .nav-list-link{
     color:#ffffff;
     padding: 0.5em;
     text-decoration: none;
-    padding-right: 0.5em;
 }
