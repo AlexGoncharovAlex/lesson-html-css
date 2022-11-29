@@ -22,14 +22,12 @@ body{
 text-align: center;
 background-color: #e5e5e5;
 padding: 0.5em;
-/* width: 100vw; */
-
+flex:1 0 auto;
 }
 .main{
     display: flex;
     min-height: 100%;
-    
- 
+    flex:1 0 auto;
     /* font-size: 1.25em; */
     /* padding: 0.5em; */
 }
