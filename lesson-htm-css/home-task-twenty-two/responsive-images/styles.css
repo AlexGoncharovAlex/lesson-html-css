@@ -1,7 +1,10 @@
 main{
     display: flex;
+    background-repeat: no-repeat;
 }
-.picture{
+img{
     max-width: 100%;
     margin: auto;
+    
+    
 }
