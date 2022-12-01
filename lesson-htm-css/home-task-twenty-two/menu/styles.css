@@ -10,10 +10,8 @@ html{
     height: 3em;
     background-color: #eee;
     padding: 1em;
-   
 }
 .fa-bars{
-
     font-size: 2em;
 }
 .button{
@@ -24,5 +22,41 @@ html{
   outline:none;
   border: none;
   cursor: pointer;
-  
+}
+.nav-list{
+    list-style-type: none;
+    padding:0;
+}
+.navigation{
+    width: 20%;
+    padding: 0.5em;
+}
+.nav-list-item{
+    background-color: #808080;
+    height: 2em;
+    margin: 0.5em;
+     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+}
+.nav-list-link{
+     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: auto;
+    color: #eee;
+    text-decoration: none;
+    margin-left: 0.5em;
+}
+
+@media screen and (min-width:600px) {
+    .fa-bars{
+        display: none;
+    }
+}
+@media screen and (max-width:600px) {
+        .navigation{
+            display: none;
+        }
 }
