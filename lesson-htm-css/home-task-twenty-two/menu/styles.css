@@ -47,7 +47,8 @@ html{
     margin: auto;
     color: #eee;
     text-decoration: none;
-    margin-left: 0.5em;
+    /* margin-left: 0.5em; */
+    padding: 0.5em;
 }
 
 @media screen and (min-width:600px) {
