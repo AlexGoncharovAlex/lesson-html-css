@@ -1,0 +1,39 @@
+$sm: 600px;
+$md: 900px;
+$lg: 1199px;
+$color-first:#ff7f50;
+$color-secondary:#8a2be2;
+$color-three:#c47;
+$unit: 8px;
+// $landscape: landscape;
+// $portrait: portrait;
+
+@mixin position-land{
+    @media screen and (orientation:landscape) {
+        @content;
+    }
+}
+@mixin position-port{
+    @media screen and (orientation:portrait) {
+        @content;
+        
+    }
+}
+  
+@mixin for-extra-small{
+    @media screen and (max-width:$sm-1) {
+        @content;
+    }
+}
+
+@mixin for-media-ups{
+    @media screen and (min-width:$sm){
+        @content;
+    }
+}
+
+@mixin for-large{
+    @media screen and (min-width:$lg) {
+        @content;
+    }
+}
