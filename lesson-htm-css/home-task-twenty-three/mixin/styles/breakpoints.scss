@@ -10,36 +10,36 @@ $unit: 8px;
 // $portrait: portrait;
 
 @mixin for-extra-small{
-    @media screen and (max-width:$sm-1) {
+    @media screen and (max-width: ($sm - 1)) {
         @content;
     }
 }
 
 @mixin for-media-ups{
-    @media screen and (min-width:$sm) and (max-width:$md-1){
+    @media screen and (min-width: $sm) and (max-width: ($md - 1)){
         @content;
     }
 }
 
 @mixin for-too-ups{
-    @media screen and (min-width:md) and (max-width:lg-1) {
+    @media screen and (min-width: $md) and (max-width: ($lg - 1)) {
         @content;
     }
 }
 
 @mixin for-large{
-    @media screen and (min-width:$lg) {
+    @media screen and (min-width: $lg) {
         @content;
     }
 }
 
 @mixin position-land{
-    @media screen and (orientation:landscape) {
+    @media screen and (orientation: landscape) {
         @content;
     }
 }
 @mixin position-port{
-    @media screen and (orientation:portrait) {
+    @media screen and (orientation: portrait) {
         @content;
         
     }
