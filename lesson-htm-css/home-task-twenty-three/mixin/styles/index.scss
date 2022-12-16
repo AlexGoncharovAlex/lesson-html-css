@@ -23,20 +23,22 @@ body{
 .square{
        @include for-extra-small{
          background-color:$color-first;
-        flex-direction: column;
+        flex-direction: row;
        }
 
        @include for-media-ups{
         background-color:$color-secondary;
-        flex-direction: row;
+        flex-direction: column;
        
     }
     @include for-large{
         background-color:$color-three ;
+        flex-direction: column;
         
     }
     @include for-too-ups{
         background-color:$color-sec-md ;
+        flex-direction: column;
        
     }
     //  @include position-land{
