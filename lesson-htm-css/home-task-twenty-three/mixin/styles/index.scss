@@ -16,24 +16,16 @@
     @include for-large{
         background-color:$color-three ;
     }
-
     @include position-land{
-        flex-direction:row;
-    }
-    
-    @include position-port{
         flex-direction: column;
+
     }
+
 }
 
 body{
     height: 100vh;
     display: flex;
-    align-items: center;
     justify-content: center;
-}
-.conteiner{
-    @include for-media-ups{
-
-    }
+    align-items: center;
 }
