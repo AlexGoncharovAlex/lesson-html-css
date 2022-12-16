@@ -10,7 +10,7 @@ $unit: 8px;
 // $portrait: portrait;
 
 @mixin for-extra-small{
-    @media screen and (max-width: ($sm - 1)) {
+    @media screen and (max-width: ($sm - 1)),(orientation: portrait) {
         @content;
     }
 }
@@ -33,14 +33,14 @@ $unit: 8px;
     }
 }
 
-@mixin position-land{
-    @media screen and (orientation: landscape) {
-        @content;
-    }
-}
-@mixin position-port{
-    @media screen and (orientation: portrait) {
-        @content;    
-    }
-}
+// @mixin position-land{
+//     @media screen and (orientation: landscape) {
+//         @content;
+//     }
+// }
+// @mixin position-port{
+//     @media screen and (orientation: portrait) {
+//         @content;    
+//     }
+// }
   

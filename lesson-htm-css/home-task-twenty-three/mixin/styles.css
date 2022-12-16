@@ -23,6 +23,8 @@ body {
 @media screen and (min-width: 600px) and (max-width: 899px) {
   .square {
     background-color: #8a2be2;
+    flex-direction: column;
+    flex-direction: row;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -33,16 +35,6 @@ body {
 @media screen and (min-width: 900px) and (max-width: 1199px) {
   .square {
     background-color: #a61;
-  }
-}
-@media screen and (orientation: landscape) {
-  .square {
-    flex-direction: row;
-  }
-}
-@media screen and (orientation: portrait) {
-  .square {
-    flex-direction: column;
   }
 }
 

@@ -25,6 +25,8 @@ body{
 .square{
        @include for-media-ups{
         background-color:$color-secondary;
+        flex-direction: column;
+        flex-direction: row;
     }
     @include for-large{
         background-color:$color-three ;
@@ -32,11 +34,11 @@ body{
     @include for-too-ups{
         background-color:$color-sec-md ;
     }
-     @include position-land{
-        flex-direction: row;
-    }
-    @include position-port{
-        flex-direction: column;
-    }
+    //  @include position-land{
+    //     flex-direction: row;
+    // }
+    // @include position-port{
+    //     flex-direction: column;
+    // }
 }
 
