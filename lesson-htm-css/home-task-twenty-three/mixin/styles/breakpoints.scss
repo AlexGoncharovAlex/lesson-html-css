@@ -10,7 +10,7 @@ $unit: 8px;
 // $portrait: portrait;
 
 @mixin for-extra-small{
-    @media screen and (max-width: ($sm - 1)),(orientation: portrait) {
+    @media screen and (max-width: ($sm - 1)) and (orientation: landscape) {
         @content;
     }
 }

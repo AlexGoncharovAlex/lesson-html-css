@@ -9,8 +9,6 @@
     width: 100px;
     background-color:$color-first ;
     margin:$unit;
-   
-
 }
 
 body{
@@ -19,20 +17,27 @@ body{
     justify-content: center;
     align-items: center;
 }
-.container{
-    display: flex;
-}
+// .container{
+//     display: flex;
+// }
 .square{
+       @include for-extra-small{
+         background-color:$color-first;
+        flex-direction: column;
+       }
+
        @include for-media-ups{
         background-color:$color-secondary;
-        flex-direction: column;
         flex-direction: row;
+       
     }
     @include for-large{
         background-color:$color-three ;
+        
     }
     @include for-too-ups{
         background-color:$color-sec-md ;
+       
     }
     //  @include position-land{
     //     flex-direction: row;
