@@ -2,13 +2,6 @@
   box-sizing: border-box;
 }
 
-.square {
-  height: 100px;
-  width: 100px;
-  background-color: #ff7f50;
-  margin: 8px;
-}
-
 body {
   height: 100vh;
   display: flex;
@@ -16,6 +9,12 @@ body {
   align-items: center;
 }
 
+.square {
+  height: 100px;
+  width: 100px;
+  background-color: #ff7f50;
+  margin: 8px;
+}
 @media screen and (max-width: 599px) {
   .square {
     background-color: #ff7f50;
@@ -40,7 +39,6 @@ body {
 .container {
   display: flex;
 }
-
 @media screen and (orientation: portrait) {
   .container {
     flex-direction: column;

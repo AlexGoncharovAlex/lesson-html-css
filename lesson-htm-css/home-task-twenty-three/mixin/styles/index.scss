@@ -4,20 +4,19 @@
     box-sizing: border-box;
 }
 
-.square{
-    height: 100px;
-    width: 100px;
-    background-color:$color-first ;
-    margin:$unit;
-}
-
 body{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .square{
+    height: 100px;
+    width: 100px;
+    background-color:$color-first ;
+    margin:$unit;
+
        @include for-extra-small{
          background-color:$color-first;
        }
@@ -31,21 +30,17 @@ body{
     }
     @include for-too-ups{
         background-color:$color-sec-md ;
-    }
-    
+    }    
 }
 
 .container{
    display: flex;
-}
 
 @media screen and (orientation: portrait) {
-    .container{
         flex-direction: column;
     }
-}
+
 @media screen and (orientation: landscape) {
-    .container{
         flex-direction: row;
-    }
+}    
 }
