@@ -40,8 +40,7 @@ $unit: 8px;
 }
 @mixin position-port{
     @media screen and (orientation: portrait) {
-        @content;
-        
+        @content;    
     }
 }
   

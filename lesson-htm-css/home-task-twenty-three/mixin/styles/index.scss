@@ -19,6 +19,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+.container{
+    display: flex;
+}
 .square{
        @include for-media-ups{
         background-color:$color-secondary;
@@ -29,11 +32,11 @@ body{
     @include for-too-ups{
         background-color:$color-sec-md ;
     }
+     @include position-land{
+        flex-direction: row;
+    }
+    @include position-port{
+        flex-direction: column;
+    }
 }
 
- .container{
-    @include position-land{
-        flex-direction: row;
-
-    }
- }

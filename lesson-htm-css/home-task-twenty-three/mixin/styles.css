@@ -16,6 +16,10 @@ body {
   align-items: center;
 }
 
+.container {
+  display: flex;
+}
+
 @media screen and (min-width: 600px) and (max-width: 899px) {
   .square {
     background-color: #8a2be2;
@@ -31,10 +35,14 @@ body {
     background-color: #a61;
   }
 }
-
 @media screen and (orientation: landscape) {
-  .container {
+  .square {
     flex-direction: row;
+  }
+}
+@media screen and (orientation: portrait) {
+  .square {
+    flex-direction: column;
   }
 }
 
