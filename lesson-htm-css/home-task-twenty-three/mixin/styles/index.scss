@@ -17,35 +17,35 @@ body{
     justify-content: center;
     align-items: center;
 }
-// .container{
-//     display: flex;
-// }
 .square{
        @include for-extra-small{
          background-color:$color-first;
-        flex-direction: row;
        }
 
        @include for-media-ups{
         background-color:$color-secondary;
-        flex-direction: column;
-       
     }
     @include for-large{
         background-color:$color-three ;
-        flex-direction: column;
         
     }
     @include for-too-ups{
         background-color:$color-sec-md ;
-        flex-direction: column;
-       
     }
-    //  @include position-land{
-    //     flex-direction: row;
-    // }
-    // @include position-port{
-    //     flex-direction: column;
-    // }
+    
 }
 
+.container{
+   display: flex;
+}
+
+@media screen and (orientation: portrait) {
+    .container{
+        flex-direction: column;
+    }
+}
+@media screen and (orientation: landscape) {
+    .container{
+        flex-direction: row;
+    }
+}

@@ -16,28 +16,39 @@ body {
   align-items: center;
 }
 
-@media screen and (max-width: 599px) and (orientation: landscape) {
+@media screen and (max-width: 599px) {
   .square {
     background-color: #ff7f50;
-    flex-direction: row;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 899px) {
   .square {
     background-color: #8a2be2;
-    flex-direction: column;
   }
 }
 @media screen and (min-width: 1200px) {
   .square {
     background-color: #c47;
-    flex-direction: column;
   }
 }
 @media screen and (min-width: 900px) and (max-width: 1199px) {
   .square {
     background-color: #a61;
+  }
+}
+
+.container {
+  display: flex;
+}
+
+@media screen and (orientation: portrait) {
+  .container {
     flex-direction: column;
+  }
+}
+@media screen and (orientation: landscape) {
+  .container {
+    flex-direction: row;
   }
 }
 
