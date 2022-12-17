@@ -13,6 +13,7 @@ html {
 }
 
 .menu {
+  margin-left: 8px;
   text-transform: uppercase;
   display: flex;
   list-style-type: none;

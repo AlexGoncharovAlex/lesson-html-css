@@ -12,8 +12,7 @@ html{
    height: $unit-height;
 }
 .menu{  
-//   margin-left:$unit-height;
-//   height: $unit-height;
+margin-left: ($unit / 2);
   text-transform: uppercase;
   display: flex;
   list-style-type: none;
