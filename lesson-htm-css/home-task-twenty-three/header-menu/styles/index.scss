@@ -4,15 +4,15 @@
     box-sizing: border-box;
 }
 html{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: $unit;    
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: $unit;    
 }
 .header{
-    background-color: $header-color;
+   background-color: $header-color;
    height: $unit-height;
 }
 .menu{  
-margin-left: ($unit / 2);
+  margin-left: ($unit / 2);
   text-transform: uppercase;
   display: flex;
   list-style-type: none;
@@ -20,9 +20,8 @@ margin-left: ($unit / 2);
   margin-bottom: 0; 
   color: $text-color;
   cursor: pointer;
-  
-
-  &__item{
+       
+&__item{
     padding-left: ($unit / 2);
     padding-right: ($unit / 2);
     height: $unit-height;
@@ -49,13 +48,12 @@ margin-left: ($unit / 2);
     margin: 0;
     padding: 0;
     min-width: 120px;
-     background-color: $drop-list ;
+    background-color: $drop-list ;
     list-style-type: none;
     box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
-      z-index: 1;
-      display: none;
+    z-index: 1;
+    display: none;
 
-      
       &__item{
         color:$text-color;
         padding-left: ($unit / 2);
@@ -65,8 +63,4 @@ margin-left: ($unit / 2);
             color: #000;
           }
     }
-    // &:hover{
-    //     display: block;
-    // }
-
 }
