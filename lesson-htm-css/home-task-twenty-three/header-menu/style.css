@@ -22,7 +22,7 @@ html {
   cursor: pointer;
 }
 .menu__item {
-  /* padding-left: 8px; */
+  padding-left: 8px;
   padding-right: 8px;
   height: 3em;
   display: flex;
