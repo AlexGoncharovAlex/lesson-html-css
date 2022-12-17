@@ -9,11 +9,11 @@ html{
 }
 .header{
     background-color: $header-color;
-   
+   height: $unit-height;
 }
 .menu{  
-  margin-left:$unit-height;
-  height: $unit-height;
+//   margin-left:$unit-height;
+//   height: $unit-height;
   text-transform: uppercase;
   display: flex;
   list-style-type: none;
@@ -35,7 +35,7 @@ html{
         background-color: $chenge-color ;
        }
 }
-     .menu__item_active:hover{
+     &__item_active{
         color: $menu-item-color;
     
        }
