@@ -38,11 +38,10 @@ html{
      &__item_active{
         color: $menu-item-color;
     
-       }
-
     &:hover .submenu{
          display: block;
-     }
+    }
+        }
 }
 .submenu{
     flex-direction: column;
