@@ -1,0 +1,42 @@
+@import 'layout.scss';
+*{
+    box-sizing: border-box;
+}
+
+.navigation{
+    background-color: $color-nav;
+    height: 200px;
+    display: flex;
+    flex: 1 1;
+}   
+.product-list{
+    background-color: $color-product;
+    height: 200px;
+    display: flex;
+    flex: 1 1;
+}
+.news{
+    background-color: $color-news;
+    height: 200px;
+    display: flex;
+    flex: 1 1;
+}
+  span{
+    background-color: $color-span;
+    border-radius: ($unit / 2);
+    padding: $unit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: lowercase;
+    margin: auto;
+    }
+.two-product{
+     @include for-small{
+        display: flex;
+        flex: 2 2;
+     }
+    }
+.content{
+    @include for-large{
+        display: flex;
+    }
+}
